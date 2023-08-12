@@ -1,15 +1,15 @@
-// const btnSave = document.getElementById("btnSave");
-// const toDoItem = document.getElementById("toDoItem");
-// const itemsDisplay = document.getElementById("itemsDisplay");
+const btnSave = document.getElementById("btnSave");
+const toDoItem = document.getElementById("toDoItem");
+const itemsDisplay = document.getElementById("itemsDisplay");
 
-// displayItems(getItems());
+displayItems(getItems());
 
 //create the onclick function to be called when the item is clicked
 
-// btnSave.onclick = function () {
-//   const toDoText = toDoItem.value;
-//   storeItem(toDoText);
-// };
+btnSave.onclick = function () {
+  const toDoText = toDoItem.value;
+  storeItem(toDoText);
+};
 
 //store the onclick function to be called when the item is clicked
 
