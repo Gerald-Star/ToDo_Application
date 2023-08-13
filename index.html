@@ -11,26 +11,22 @@
     />
     <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
     <link rel="stylesheet" href="todo.css" />
+    <script src="lockr.js"></script>
   </head>
   <body>
-    <ons-page>
+    <ons-page id="page1">
       <ons-toolbar>
         <div class="center">To Do List</div>
       </ons-toolbar>
 
       <textarea
-        id="toDoItem"
         class="textarea"
-        placeholder="Enter Your To Do Item"
-        maxlength="140"
         rows="3"
-        cols="100"
+        placeholder="Enter Your To Do Item..."
+        id="toDoItem"
+        maxlength="140"
       ></textarea>
-
-      <ons-button id="btnSave" class="button button-material" modifier="large"
-        >Save</ons-button
-      >
-
+      <button class="button butto-material" id="btnSave">Save</button>
       <section id="itemsDisplay"></section>
     </ons-page>
 
